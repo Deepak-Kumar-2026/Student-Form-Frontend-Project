@@ -36,7 +36,7 @@ function App() {
   if (loading) return <h2>Loading Students...</h2>;
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div className="container">
       <h1>Students Management</h1>
 
       <StudentForm
